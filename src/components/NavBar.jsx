@@ -5,9 +5,9 @@ const NavBar = () => {
   <nav className='navbar'>
     <div className='brand'>Waterfall</div>
     <ul className='ul-container'>
-      <li><a href="">Register</a></li>
-      <li><a href="">Login</a></li>
-      <li><a href="">Admin</a></li>
+      <li><a href="#">Register</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Admin</a></li>
     </ul>
   </nav>
   )
