@@ -1,16 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const NavBar = () => {
-  return (
-  <nav className='navbar'>
-    <div className='brand'>Waterfall</div>
-    <ul className='ul-container'>
-      <li><a href="#">Register</a></li>
-      <li><a href="#">Login</a></li>
-      <li><a href="#">Admin</a></li>
+const NavBar = () => (
+  <nav className="navbar">
+    <div className="brand">Waterfall</div>
+    <ul className="ul-container">
+      <li>Register</li>
+      <li>Login</li>
+      <li>Admin</li>
     </ul>
   </nav>
-  )
-}
+);
 
-export default NavBar
+export default NavBar;
