@@ -1,0 +1,61 @@
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid rgb(201, 10, 201);
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 40px;
+    column-gap: 20px;
+}
+
+.todo {
+    background-color:rgb(174, 227, 255); 
+    height: 500px;
+    border-radius: 5px;
+}
+
+.todo-generate {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.todo-list-div {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -5px;
+}
+
+.add-item {
+    font-size: 30px;
+    padding: 10px;
+    height: 35px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.more-settings {
+    font-size: 30px;
+    padding: 5px;
+    height: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.in-progress {
+    background-color: rgb(255, 197, 255); 
+    height: 500px;
+    border-radius: 5px;
+}
+
+.done {
+    background-color: rgb(190, 246, 198); 
+    height: 500px;
+    border-radius: 5px;
+}
