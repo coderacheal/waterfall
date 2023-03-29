@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  background-color: coral;
+  justify-content: space-around;
+  height: 70px;
+}
+
+.brand {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+}
+
+.ul-container {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 40px;
+  font-size: 22px;
+  color: white;
+}
+
+li {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
