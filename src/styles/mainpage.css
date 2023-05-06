@@ -2,47 +2,108 @@
   display: flex;
   grid-template-columns: 1fr 1fr 1fr;
   border: 2px solid rgb(201, 10, 201);
-  width: 75%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-bottom: 100px;
   border-radius: 10px;
-  padding: 40px;
+  padding: 30px;
+  width: 80%;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
   column-gap: 20px;
 }
 
-.todo {
+.card_stage {
+  width: 80%;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.additions_and_settings_div {
+  display: flex;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+.additions_and_settings {
+  display: flex;
+}
+
+.add-item {
+  font-size: 30px;
+  margin: auto;
+  align-content: center;
+  margin-right: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.more-settings {
+  font-size: 30px;
+  margin-top: 3px;
+  align-content: center;
+  margin-right: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .sub_board {
+  margin: auto;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  border: 2px solid red;
+  column-gap: 20px;
+  align-self: center;
+} */
+
+/* .todo {
   background-color: rgb(174, 227, 255);
   height: 500px;
-  /* width: 350px; */
   border-radius: 5px;
   overflow: auto;
   display: grid;
-  /* width: 100%; */
-  /* grid-template-columns: 1fr;; */
-}
 
-.todo-generate {
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .todo-generate {
   display: flex;
   justify-content: space-between;
   width: 340px;
   margin: auto;
   background-color: rgb(174, 227, 255);
-  /* background-color: red; */
+  background-color: red;
   position: relative;
   z-index: 3;
   margin-bottom: 170px;
   height: 50px;
-  /* left: 0; */
-  /* right: 0; */
-}
+  left: 0;
+  right: 0;
+} */
 
-.todo-list-div {
+/* .todo-list-div {
   display: flex;
   margin-left: 50px;
   margin-top: -5px;
-}
+} */
 
-.add-item {
+/* .add-item {
   font-size: 30px;
   padding: 10px;
   height: 35px;
@@ -59,16 +120,18 @@
   margin-top: 5px;
   cursor: pointer;
   margin-left: 10px;
-}
+} */
 
-.in-progress {
+/* .in-progress {
   background-color: rgb(255, 197, 255);
   height: 500px;
   border-radius: 5px;
-}
+} */
 
-.done {
+/* .done {
   background-color: rgb(190, 246, 198);
   height: 500px;
   border-radius: 5px;
-}
+} */
+
+

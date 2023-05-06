@@ -1,0 +1,15 @@
+.todo {
+  min-width: 32%;
+  border-radius: 10px;
+}
+
+.todo_subboard {
+  background-color: rgb(174, 227, 255);
+  height: 500px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.todo-header {
+  background-color: rgb(174, 227, 255);
+}

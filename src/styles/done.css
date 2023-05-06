@@ -1,0 +1,15 @@
+.done {
+  min-width: 32%;
+  border-radius: 10px;
+}
+
+.done_subboard {
+  background-color: rgb(190, 246, 198);
+  height: 500px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.done-header {
+  background-color: rgb(190, 246, 198);
+}

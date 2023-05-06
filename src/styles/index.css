@@ -1,6 +1,9 @@
 @import 'navbar.css';
 @import 'mainpage.css';
 @import 'card.css';
+@import 'todo.css';
+@import 'in-progress.css';
+@import 'done.css';
 
 body {
   margin: 0;
