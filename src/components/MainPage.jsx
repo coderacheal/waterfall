@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../assets/image.png';
 
 const MainPage = () => (
   <div>
@@ -9,6 +10,80 @@ const MainPage = () => (
           <div className="todo-list-div">
             <p className="add-item">+</p>
             <p className="more-settings">...</p>
+          </div>
+        </div>
+        <div className="card-grid">
+          <div className="card-div">
+            <div className="card">
+              <div className="title-owner">
+                <p>Check the Watchlist</p>
+                <p>#Opened by Marvin</p>
+              </div>
+              <div className="card-setting">
+                <p className="more-settings">...</p>
+                <img className="user-image" src={image} alt="user" />
+              </div>
+            </div>
+          </div>
+          <div className="card-div">
+            <div className="card">
+              <div className="title-owner">
+                <p>Check the Watchlist</p>
+                <p>#Opened by Marvin</p>
+              </div>
+              <div className="card-setting">
+                <p className="more-settings">...</p>
+                <img className="user-image" src={image} alt="user" />
+              </div>
+            </div>
+          </div>
+          <div className="card-div">
+            <div className="card">
+              <div className="title-owner">
+                <p>Check the Watchlist</p>
+                <p>#Opened by Marvin</p>
+              </div>
+              <div className="card-setting">
+                <p className="more-settings">...</p>
+                <img className="user-image" src={image} alt="user" />
+              </div>
+            </div>
+          </div>
+          <div className="card-div">
+            <div className="card">
+              <div className="title-owner">
+                <p>Check the Watchlist</p>
+                <p>#Opened by Marvin</p>
+              </div>
+              <div className="card-setting">
+                <p className="more-settings">...</p>
+                <img className="user-image" src={image} alt="user" />
+              </div>
+            </div>
+          </div>
+          <div className="card-div">
+            <div className="card">
+              <div className="title-owner">
+                <p>Check the Watchlist</p>
+                <p>#Opened by Marvin</p>
+              </div>
+              <div className="card-setting">
+                <p className="more-settings">...</p>
+                <img className="user-image" src={image} alt="user" />
+              </div>
+            </div>
+          </div>
+          <div className="card-div">
+            <div className="card">
+              <div className="title-owner">
+                <p>Check the Watchlist</p>
+                <p>#Opened by Marvin</p>
+              </div>
+              <div className="card-setting">
+                <p className="more-settings">...</p>
+                <img className="user-image" src={image} alt="user" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 .board {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr 1fr;
   border: 2px solid rgb(201, 10, 201);
   width: 75%;
@@ -13,14 +13,27 @@
 .todo {
   background-color: rgb(174, 227, 255);
   height: 500px;
+  /* width: 350px; */
   border-radius: 5px;
+  overflow: auto;
+  display: grid;
+  /* width: 100%; */
+  /* grid-template-columns: 1fr;; */
 }
 
 .todo-generate {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 340px;
   margin: auto;
+  background-color: rgb(174, 227, 255);
+  /* background-color: red; */
+  position: relative;
+  z-index: 3;
+  margin-bottom: 170px;
+  height: 50px;
+  /* left: 0; */
+  /* right: 0; */
 }
 
 .todo-list-div {
@@ -39,7 +52,7 @@
 }
 
 .more-settings {
-  font-size: 30px;
+  font-size: 20px;
   padding: 5px;
   height: 25px;
   font-weight: bold;
