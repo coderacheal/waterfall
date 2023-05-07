@@ -4,6 +4,7 @@
 @import 'todo.css';
 @import 'in-progress.css';
 @import 'done.css';
+@import 'assign_task.css';
 
 body {
   margin: 0;
