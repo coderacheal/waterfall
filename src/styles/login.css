@@ -1,0 +1,35 @@
+.loginDiv {
+  border: 2px solid rgb(201, 10, 201);
+  width: 20%;
+  padding: 70px;
+  margin: auto;
+  border-radius: 5px;
+  vertical-align: center;
+  margin-top: 80px;
+  background-color: white;
+  height: 50vh;
+  }
+
+form {
+  margin-top: 70px;
+}
+  
+.login_inputs {
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 80%;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid rgb(201, 10, 201);
+  font-size: 18px;
+}
+
+.submit-login-credentials {
+  padding: 10px;
+  background-color: none;
+  border: 1px solid rgb(201, 10, 201);
+  width: 30%;
+  background-color: white;
+  margin-top: 50px;
+  cursor: pointer;
+}

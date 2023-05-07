@@ -5,6 +5,7 @@
 @import 'in-progress.css';
 @import 'done.css';
 @import 'assign_task.css';
+@import 'login.css';
 
 body {
   margin: 0;
