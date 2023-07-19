@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import MainPage from './MainPage';
 import AssignTask from './AssignTask';
 import Login from './Login';
+import Register from './Register';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <NavBar />
       {/* <MainPage /> */}
       {/* <AssignTask /> */}
-      <Login />
+      {/* <Login /> */}
+      <Register />
     </div>
   );
 }
